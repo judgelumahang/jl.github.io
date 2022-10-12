@@ -1,0 +1,28 @@
+h1{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px;
+
+}
+.p1{
+    text-align:left;
+    margin-left: 160px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.background{
+    box-sizing: content-box; 
+    border: 2px solid black;
+    width: 25%;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 370px;
+}
+.div{
+    position: absolute;
+    top: 87px;
+    margin-left: 50px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}

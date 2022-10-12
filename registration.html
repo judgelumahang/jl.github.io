@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <link rel='stylesheet' href='style.CSS' type='text/css' />
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body class="background3">
+        <form class="background" action="login.html" onsubmit="return submitValidation()" method="post">
+            <h1>Registration Form</h1>
+            <div class="div1">
+                <label for="Fname" class="label1">First Name</label>
+                    <input type="text" name="" id="Fname" class="input"  required>
+                <label for="Lname" class="label1">Last Name</label>
+                    <input type="text" name="" id="Lname" class="input"  required>
+                <label for="Mname" class="label1">Middle Name</label>
+                    <input type="text" name="" id="Mname" class="input"  required> 
+            </div>
+            <div class="div2">
+                <label class="label2">Email</label>
+                    <input type="email" name="" id="email"  class="input" style="width: 260px;" required>
+                <label class="label2">Facebook Account</label>
+                    <input type="email" name="" id="facebook" class="input"  style="width: 260px;" required>
+            </div>
+            <div class="div3">
+                <label for="phone" class="label3">Phone Num</label>
+                    <input type="text"  name="" id="phone" class="input" style="width: 260px;">
+                    <label for="location" class="label5">Location</label>
+            </div>
+            <div class="div6">
+                    <input type="text" name="" id="location"  style="width: 260px; height: 20px; margin-top: 2px;" required class="input3">
+                    <br>
+                    <label style="margin-left: 3px;" for="city">Select your city</label>
+                    <select id="city">
+                        <option value=""></option>
+                        <option value="EL Salvador City" id="city">El Salvador City</option>
+                        <option value="Cagayan de oro City" id="city">Cagayan de oro City</option>
+                        <option value="Davao City" id="city">Davao City</option>
+                        <option value="Butuan City" id="city">Butuan City</option>
+                    </select>
+            </div>
+            <div class="div4">
+                <label for="Uname" class="label4">User Name</label>
+                    <input type="text" name="" id="Uname" class="input" required>
+                <label for="pass" class="label4">Password</label>
+                    <input type="password" name="" id="pass" class="input" required>
+                <label for="rPass" class="label4">Re-type Password</label>
+                    <input type="password" name="" id="rPass" class="input" required>
+            </div>
+            <div class="div5">
+                <input type="submit" onsubmit="submitValidation()" name="" id="submit"  class="input4">
+                <input type="reset" onclick="reset()" name="" id="reset" class="input4">  
+            </div>
+            <div>
+                <a href="file:///C:/Users/Jessa/Desktop/Landing%20Page/login.html" class="a"><b >Login here</b></a>
+                <p class="p1">Have already an account?</p>
+            </div>
+        </form>
+        <script>
+            function submitValidation(){
+                var f=document.getElementById("Fname").value;
+                var l=document.getElementById("Lname").value;
+                var m=document.getElementById("Mname").value;
+                var e=document.getElementById("email").value;
+                var fa=document.getElementById("facebook").value;
+                var ph=document.getElementById("phone").value;
+                var loc=document.getElementById("location").value;
+                var cit=document.getElementById("city").value;
+                var u=document.getElementById("Uname").value;
+                var p=document.getElementById("pass").value;
+                var rP=document.getElementById("rPass").value;
+                if((f!="")&&(l!="")&&(m!="")&&(e!="")&&(fa!="")&&(ph!="")&&(loc!="")&&(cit!="")&&(u!="")&&(p!="")&&(p!="")&&(rP!="")){
+                    if(typeof(Storage)!=="undefined"){
+                        var ff=sessionStorage.setItem("Fname",f);
+                        var ll=sessionStorage.setItem("Lname",l);
+                        var mm=sessionStorage.setItem("Mname",m);
+                        var ee=sessionStorage.setItem("email",e);
+                        var fafa=sessionStorage.setItem("facebook",fa);
+                        var phph=sessionStorage.setItem("phone",ph);
+                        var locloc=sessionStorage.setItem("location",loc);
+                        var citcit=sessionStorage.setItem("city",cit);
+                        var uu=sessionStorage.setItem("Uname",u);
+                        var pp=sessionStorage.setItem("pass",p);
+                        var rPrP=sessionStorage.setItem("rPass",rP);
+                        if((p==rP)&&(rP==p)){
+                            alert("SUCCESSFULLY REGISTERED !!!");
+                            return true;
+                        }
+                        else {                           
+                            alert("PASSWORD DOENS'T !!! MATCH PLEASE TRY AGAIN");
+                            var p=document.getElementById("pass").focus();
+                            return false;
+                       }                                                                                                                
+                    }
+                }   
+            }       
+        </script>
+    </body>
+</html>

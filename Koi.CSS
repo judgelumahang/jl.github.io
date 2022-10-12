@@ -1,0 +1,241 @@
+h1{
+    color: black;
+    text-align: right;
+    font-family: cursive;
+    padding-right: 150px;
+    margin: 0px;
+}
+.Btn1{
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 30px;
+    color: grey;
+    font-family: monospace;
+    border: 2px solid white;
+}
+.btn1:hover{
+    color: black;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    border: 2px solid black;
+}
+.Btn2{
+    position: absolute;
+    top: 25px;
+    left: 285px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 30px;
+    color: black;
+    font-family: monospace;
+    border: 2px solid black;
+}
+.btn2:hover{
+    color: grey;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    border: 2px solid grey;
+}
+h2{
+    font-family: cursive;
+    font-size: 30px;
+    text-align: left;
+    color: grey;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+p.one{
+    color: grey;
+    font-family: monospace;
+    margin: 2px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+p.under{
+    padding-bottom: 20px;
+    background-size: 15% 2px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(black,grey);
+    background-position: bottom left;
+    margin-left: 52px;
+    margin-bottom: 5px;
+}
+.pad{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+    color: grey;
+    margin: 0px;
+}
+.Btn3{
+    padding: 5px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    color: black;
+    position: bottom;
+    transform: translate(20%,23%);
+    font-family: monospace;
+    background-color: grey;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: grey;
+    border: 2px solid grey;
+}
+.background{
+    background-image: url(koi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    height: 500px;
+}
+h3{
+    font-family: cursive;
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+    font-style: italic;
+    padding-top: 30px;
+}
+p.two{
+    color: grey;
+    font-family: monospace;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+}
+.Btn4{
+    position: absolute;
+    left: 50%;
+    color: black;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 5px 30px;
+    font-size: 20px;
+    font-family: monospace;
+    top: 760px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.column{
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    width: 33.33%;
+}
+.background2{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    margin-top: 90px;
+    padding-bottom: 50px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+h4{
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    color: grey;
+    margin-top: 5px;
+}
+img.pad{
+    border: 2px solid grey;
+    padding: 0px 0px;
+}
+.Btn5{
+    position: center;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 30px;
+    background-color: white;
+    margin-bottom: 40px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: monospace;
+}
+div.img{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.underline{
+    background-size: 15% 2px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(grey,grey);
+    background-position: center bottom;
+    margin: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.imgHover:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.background3{
+    background-color: rgb(65, 60, 60);
+    margin: 20px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-top: 40px;
+}
+h5{
+    padding-top: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 0px;
+}
+p.three{
+    text-align: center;
+    font-family: monospace;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+}
+.underThree{
+    background-image:linear-gradient(grey,black) ;
+    background-repeat: no-repeat;
+    background-size: 15% 2px;
+    background-position: center bottom;
+    padding-bottom: 10px;
+    
+}
+div.conCenter{
+    text-align: center;
+    padding-top: 10px;
+}
+h6{
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+    margin: 0px;
+    color: black;
+}
+.div1{
+    box-sizing: content-box;
+    border: 2px solid grey;
+    float: right;
+    top: 100px;
+    height: 100px;
+}

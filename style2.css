@@ -1,0 +1,84 @@
+h1{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px;
+}
+.div{
+    text-align: center;
+    margin: 10px;
+}
+.input1{
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 30px; 
+    width: 300px;
+
+}
+.label{
+    position: absolute;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    margin: 10px;
+    font-style: oblique;
+    font-weight: inherit;
+    font-size: 16px;
+    padding-left: 100px;
+}
+.input2{
+    border-radius: 5px;
+    height: 30px;  
+    margin-top: 30px; 
+    width: 300px;
+}
+.label2{
+    position: absolute;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    margin: 10px;
+    font-style: oblique;
+    font-weight: inherit;
+    font-size: 16px;
+    padding-left: 100px;
+}
+.button{
+    border-radius: 5px;
+    height: 40px;
+    width: 152px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.background{
+    box-sizing: content-box; 
+    border: 2px solid black;
+    width: 30%;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 150px;
+    border-radius: 10px;
+    height: 350px;
+}
+h2{
+    text-align: center;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    text-shadow: 2px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+a{
+    float:right;
+    margin-right: 65px;
+    margin-top: 12px; 
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+p{
+    padding-left: 55px;
+    padding-top: 4px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.background2{
+    background-image: url(dokoifishbite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}

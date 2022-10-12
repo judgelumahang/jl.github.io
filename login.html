@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log in Form</title>
+        <link rel='stylesheet' href='style2.CSS' type='text/css' />
+    </head>
+    <body class="background2">
+        <form onsubmit="return submitF()" action="Welcome.html" method="post" class="background">
+            <div class="div">
+                <div>
+                    <h1>Log in Form</h1>
+                </div>
+                <div>
+                    <label for="uName" class="label">Username</label>
+                    <input type="text" name="" id="uName" class="input1" required>
+                </div>
+                <div>
+                    <label for="pass3" class="label2">Password</label>
+                    <input type="password" name="" id="pass3" class="input2">
+                </div>
+                <div>
+                    <input type="submit" onsubmit="submitF()" name="" id="submit"  class="button" required>
+                    <input type="reset" onclick="reset()" name="" id="reset"  class="button">
+                </div>
+            </div>
+            <dvi>
+                <a href="file:///C:/Users/Jessa/Desktop/Landing%20Page/registration.html" class="a"><b >Signup here</b></a>
+                <p>Don't have an account?</p>
+            </dvi>
+        </form> 
+        <script>
+            function submitF(){
+                var u1=document.getElementById("uName").value;
+                var p3=document.getElementById("pass3").value;
+                if((innerHTML=sessionStorage.getItem("Uname")==u1)&&(innerHTML=sessionStorage.getItem("pass")==p3)){
+                    alert("SUCCESSFFULLY LOG IN !!!");
+                    return true;                    
+                }
+                else{
+                    alert("WRONG CREDENTIALS !!! PLEASE CHECK PASSWORD OR USERNAME");
+                    var p3=document.getElementById("pass3").focus();
+                    return false;
+                }                    
+            }
+        </script>
+    </body>
+</html>
